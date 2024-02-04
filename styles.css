@@ -1,0 +1,47 @@
+body{
+    background-image:url("cover.jpg");
+    background-size:cover;
+}
+nav ul{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+p{
+    font-family:  sans-serif;
+    font-weight: bolder;
+    font-size:1.3rem;
+    line-height: 0;
+}
+
+div img{
+    padding: 5px 15px;
+}
+audio {
+    width: 100%;
+    margin: 0 auto;
+  }
+  audio::-webkit-media-controls-panel {
+  background-color: hsla(0, 0%, 20%, 0.438);
+  color: #fff;
+  border-radius: 5px;
+}
