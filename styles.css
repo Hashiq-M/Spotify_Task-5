@@ -37,7 +37,7 @@ div img{
     padding: 5px 15px;
 }
 audio {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
   }
   audio::-webkit-media-controls-panel {
